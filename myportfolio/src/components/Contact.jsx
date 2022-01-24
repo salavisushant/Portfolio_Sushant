@@ -1,8 +1,7 @@
 import { useState, React } from 'react';
 import emailjs from '@emailjs/browser';
 import swal from 'sweetalert';
-import contactLight from '../media/pepsi.png';
-import contactDark from '../media/contact-dark.svg';
+
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
@@ -25,7 +24,7 @@ const Contact = ({ darkMode }) => {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        emailjs.send('service_vjuue5m', 'template_oksqaiq', templateParams, 'user_aGjlUxhHVrd2775oHAEb0')
+        emailjs.send('service_vjuue5m', 'template_96clll8', templateParams, 'user_aGjlUxhHVrd2775oHAEb0')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
             }, (err) => {
@@ -54,9 +53,9 @@ const Contact = ({ darkMode }) => {
 
                         <h2 className="lead">Contact Details</h2>
                         <div className="contact-text">
-                            <p>Sushant Salavi  <br />  At.Post-Bachani,Kolhapur, Maharashtra. <br /> 9552077123
+                            <p>Sushant Salavi  <br />  At.Post-Bachani,Kolhapur, Maharashtra. <br /> <strong style={{fontWeight:"600"}}>9552077123</strong>
                                 <br />
-                                salavisush88@gmail.com
+                                <strong style={{fontWeight:"600"}}>salavisush88@gmail.com</strong>
                             </p>
                         </div>
 
@@ -74,7 +73,7 @@ const Contact = ({ darkMode }) => {
                             <Form.Group>
                                 <Form.Control onChange={e => onInputChange(e)} value={templateParams.message} name="message" as="textarea" rows={8} className="ph msg" placeholder="Enter your message" />
                             </Form.Group>
-                            <Button variant={darkMode ? "outline-light" : "outline-dark"} type="submit">
+                            <Button style={{marginTop:"1.3%"}} variant={darkMode ? "outline-light" : "outline-dark"} type="submit">
                                 Submit
                             </Button>
                         </Form>

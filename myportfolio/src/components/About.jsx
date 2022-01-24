@@ -86,7 +86,7 @@ const About = ({ darkMode }) => {
                   <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
                   <br></br>
                   <Card.Text>
-                    <p>Enthusiastic aspiring full-stack web developer specialized in <strong>  MERN </strong>  stack  having fascination towards computer and technology. Keen to create new and innovative websites by showcasing my skills. Apart from that a great team player, ability to work with different kinds of people with different thinkings.In spare time I like Sketching,Photography and travelling. Gaining skills by which I can create something productive. Currently looking for an job opportunity to work in an interesting company by applying my skills.</p>
+                    <p style={{fontSize: "17px",fontWeight: "500"}}>Enthusiastic aspiring full-stack web developer specialized in <strong>  MERN </strong>  stack  having fascination towards computer and technology. Keen to create new and innovative websites by showcasing my skills. Apart from that a great team player, ability to work with different kinds of people with different thinkings.In spare time I like Sketching,Photography and travelling. Gaining skills by which I can create something productive. Currently looking for an job opportunity to work in an interesting company by applying my skills.</p>
                   </Card.Text>
                  
 
@@ -114,9 +114,9 @@ const About = ({ darkMode }) => {
                   <br></br>
 
                   <div>
-                    <p>Sushant Salavi  <br /> At.Post-Bachani,Kolhapur, Maharashtra. <br /> 9552077123
+                    <p>Sushant Salavi  <br /> At.Post-Bachani,Kolhapur, Maharashtra.<br/> <strong style={{fontWeight:"600"}}>9552077123</strong>
                       <br />
-                      salavisush88@gmail.com
+                      <strong style={{fontWeight:"600"}}>salavisush88@gmail.com</strong>
                     </p>
                   </div>
 
@@ -126,7 +126,7 @@ const About = ({ darkMode }) => {
 
                  
 
-                  <a className="social-icons" href="linkedin.com/in/sushant-salavi24021996" target="_blank" rel="noreferrer noopener">
+                  <a className="social-icons" href="https://www.linkedin.com/in/sushant-salavi24021996/" target="_blank" rel="noreferrer noopener">
                     <Button variant={darkMode ? "outline-light" : "outline-dark"}>
                       <FontAwesomeIcon className="dark" size="lg" icon={faLinkedinIn} />
                     </Button>
@@ -154,8 +154,7 @@ const About = ({ darkMode }) => {
           </Row>
           <br></br>
           <hr></hr>
-          <br></br>
-
+        
         </Container>
       </Fade>
     </div>

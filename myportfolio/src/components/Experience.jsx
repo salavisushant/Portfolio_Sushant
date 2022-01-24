@@ -24,15 +24,23 @@ const Experience = ({ darkMode }) => {
                             <Col lg={4} sm={12}>
                                 <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
                                     <br></br>
-                                    <center>
+                                    <center style={{height: '336px'}}>
                                         <div className="flip-card" class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div className="flip-card-front">
-                                                    <Card.Img variant="top" src="https://user-images.githubusercontent.com/87421852/148262976-fdbc806f-af6e-4338-b33e-b8d36cb502a7.png" />
+                                                    <Card.Img variant="top" src="https://user-images.githubusercontent.com/87421852/150777740-d1ef5d91-9ea8-449f-9b84-7f5d6c924445.png" />
                                                     <Card.Body>
-                                                        <Card.Title align="center">Clone Of Flipkart</Card.Title>
+                                                        <Card.Title align="center">-Clone Of Twitter-</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">Flipkart is India’s largest e-commerce web Platform.</p>
+                                                            <td style={{fontSize:"14px"}}>
+                                                            <p align="center">Features</p>
+                                                            <tr>Posting tweet with upload image from files.</tr>
+                                                            <tr>Real time chat using websocket.</tr>
+                                                            <tr>Added emoji for post and also like functionality.</tr>
+                                                            <tr>Various filter functionalities for explore page.</tr>
+                                                        
+                                            
+                                                            </td>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
@@ -56,6 +64,8 @@ const Experience = ({ darkMode }) => {
 
 
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" />
+                                                
+                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
                                                 </div>
                                             </div>
                                         </div>
@@ -63,10 +73,10 @@ const Experience = ({ darkMode }) => {
                                     <br></br>
                                     <br />
                                     <div>
-                                        <a href="https://flipkart-clone-ii.netlify.app/index.html" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://unitprojecttwitter-salavisushant.vercel.app/" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
-                                        <a href="https://github.com/salavisushant/Flipkart_Backend" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/salavisushant/twitter-frontend" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
@@ -76,15 +86,23 @@ const Experience = ({ darkMode }) => {
                             <Col lg={4} sm={12}>
                                 <Card align="center" className="exp" data-theme={darkMode ? "dark" : "light"}>
                                     <br></br>
-                                    <center>
+                                    <center >
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div className="flip-card-front">
                                                     <Card.Img variant="top" src="https://user-images.githubusercontent.com/87421852/148262976-fdbc806f-af6e-4338-b33e-b8d36cb502a7.png"/>
                                                     <Card.Body>
-                                                        <Card.Title align="center">Clone Of Flipkart</Card.Title>
+                                                        <Card.Title align="center">-Clone Of Flipkart-</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">Flipkart is India’s largest e-commerce web Platform.</p>
+                                                            <td style={{fontSize:"14px"}}>
+                                                            <p align="center">Features</p>
+                                                            <tr>Sign-in/Sign-up page with OTP verification</tr>
+                                                            <tr>Categorization of products with carousel effect</tr>
+                                                            <tr>Various filter functionalities.</tr>
+                                                            <tr>Product page with Pincode verification.</tr>
+                                            
+                                                            </td>
+
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
@@ -97,7 +115,7 @@ const Experience = ({ darkMode }) => {
 
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
 
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+                                                   
 
 
 
@@ -117,12 +135,12 @@ const Experience = ({ darkMode }) => {
                                     <br></br>
                                     <div>
                                         {/* <Modal show={show} onHide={handleClose} className="modal">
-                                <Modal.Body>Heya! The project is in development mode, you can visit the repository and have a look. Feel free to contribute!</Modal.Body>
+                                <Modal.Body></Modal.Body>
                                 <Modal.Footer>
                                 <Button variant="outline-dark" onClick={handleClose}>
                                     Close
                                 </Button>
-                                <a href="https://github.com/srikanta30/LookO" target="_blank" rel="noreferrer noopener">
+                                <a href="" target="_blank" rel="noreferrer noopener">
                                     <Button variant="outline-dark">View Github Repo</Button>
                                 </a>
                                 </Modal.Footer>
@@ -130,7 +148,7 @@ const Experience = ({ darkMode }) => {
 
                                         {/* <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button> */}
 
-                                        <a href="https://flipkart-clone-ii.netlify.app/index.html" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://vasukomuravelli.github.io/Flipkart_Backend" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
 
@@ -150,9 +168,16 @@ const Experience = ({ darkMode }) => {
                                                 <div className="flip-card-front">
                                                     <Card.Img variant="top" src="https://user-images.githubusercontent.com/87421852/148261814-824f2abc-c591-4c58-bae8-d5e4c0d365c3.png" />
                                                     <Card.Body>
-                                                        <Card.Title align="center">Clone of Healthmug</Card.Title>
+                                                        <Card.Title align="center">-Clone of Healthmug-</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">Healthmug is an e-commerce website providing medicines at the most reasonable prices.</p>
+                                                        <td style={{fontSize:"14px"}}>
+                                                            <p align="center">Features</p>
+                                                            <tr>Landing page with CSS effects.</tr>
+                                                            <tr>Product page with sorting.</tr>
+                                                            <tr>Add to the cart page and checkout page.</tr>
+                                                            <tr>contact-us and review page..</tr>
+                            
+                                                            </td>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
@@ -199,8 +224,8 @@ const Experience = ({ darkMode }) => {
                 </Container>
             </Fade>
             <br></br>
-            <hr></hr>
-            <br></br>
+    
+          
         </div>
     )
 }

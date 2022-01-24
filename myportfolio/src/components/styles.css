@@ -1,6 +1,15 @@
-* {
+/* * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+} */
+
+/* *{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+* {
+    font-family:"Urbanist",sans-serif;
 }
+
 
 /* :root {
     --bg-color: #f9edc2;
@@ -49,7 +58,6 @@
     font-size: x-large;
     margin-left: 20px;
     color: var(--text-color);
-
     font-weight: 500;
 }
 
@@ -110,7 +118,7 @@
 .lead {
     color: var(--description);
     font-size: xx-large;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 code {
@@ -202,7 +210,7 @@ strong,
 .flip-card {
     background-color: transparent;
     width: 90%;
-    height: 300px;
+    height: 360px;
     perspective: 1000px;
     color: var(--text-color);
 
@@ -280,6 +288,5 @@ strong,
 .social-icons{
     margin: 1rem;
 }
-
 
  

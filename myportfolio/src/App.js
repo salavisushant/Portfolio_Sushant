@@ -10,11 +10,12 @@ import {Button }from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAdjust } from "@fortawesome/free-solid-svg-icons";
 import "./components/styles.css";
+import "./components/button.css"
 
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
   console.log(process.env);
 
@@ -32,7 +33,7 @@ function App() {
               Welcome
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Collapse id="basic-navbar-nav" >
               <Nav className="mr-auto">
                 <Nav.Link href="#about" className="link">
                   About
@@ -48,7 +49,8 @@ function App() {
                 </Nav.Link>
               </Nav>
               <Button
-                style={{marginLeft:"40%"}}
+                // style={{marginLeft:"40%"}}
+                className="mode-button"
                 onClick={toggleDarkMode}
                 variant={darkMode ? "outline-light" : "outline-dark"}
               >

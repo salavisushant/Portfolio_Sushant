@@ -79,13 +79,13 @@ const Skills = ({darkMode}) => {
                     <Card className="skill-nbcard">
                         <Card.Body >
                             <Card.Title>Backend</Card.Title>
-                            <Card.Text>ExpressJs, NodeJS, MongoDB, </Card.Text>
+                            <Card.Text>ExpressJS, NodeJS, MongoDB.</Card.Text>
                         </Card.Body>
                     </Card>
                     <Card className="skill-nbcard">
                         <Card.Body >
                             <Card.Title>Tools</Card.Title>
-                            <Card.Text>Git & Github, PostMan, MongoDb Atlas, Nodemailer </Card.Text>
+                            <Card.Text>Git & Github, PostMan, MongoDB Atlas.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
